@@ -22,7 +22,7 @@ This repository contains the implementation of a real-time **Person Identificati
 ## Dataset
 
 -   **Source**: Own Custom Dataset
--   Contains images with varied poses, lighting conditions, and occlusions, teared, noisy, and blurry
+-   Contains images with varied poses, lighting conditions, and occlusions, teared, noise, and blurr
 -   Data split: `Train (70%)`, `Validation (15%)`, `Test (15%)`
 -   Pre-processing: Face alignment, resizing, augmentation (flip, rotate, crop)
 
@@ -78,16 +78,34 @@ This project, part of the thesis **"Person Identification with Facial Recognitio
 
 ## 📄 License
 
-This project is licensed under the IEEE License.
+© 2026 Wahid Hasan. All rights reserved.
 
 ## 👨‍💻 Authors
 
-1.  **Walid Hasan (Myself)** -1st
-2.  Sumaya Mahira -2nd
-3.  Golam Shakib Hossen -3rd
-4.  Harun-AR-Rashid -4th
-5.  Torikuzzaman Mollah -5th
+1.  **Walid Hasan**
+2.  Sumaya Mahira 
+3.  Golam Shakib Hossen 
+4.  Harun-AR-Rashid
+5.  Torikuzzaman Mollah
+
+## Citation
+If you use this code or methods, please cite our IEEE conference paper:
+
+```bash
+W. Hasan, S. Mahira, G. Shakib Hosen, M. Harun-Ar-Rashid, and T. Mollah, 
+“Utilization of the YOLOv8 methodology for individual identification through facial recognition,” 
+in *Proc. 2024 IEEE 13th Int’l Conf. Electrical and Computer Engineering (ICECE)*, Dec. 2024, pp. 651–656. 
+doi:10.1109/ICECE64886.2024.11024852.
+```
+##### Link to IEEE Xplore: 
+```bash
+DOI:10.1109/ICECE64886.2024.11024852
+ ```
+
+[IEEE Xplore Direct Link](https://doi.org/10.1109/ICECE64886.2024.11024852)
+
 
 ## 📌 Acknowledgements
+- Ultralytics YOLOv8 for the base object detection framework
+- IEEE ICECE 2024 for publishing the original research
 
--   Ultralytics team for YOLOv8
